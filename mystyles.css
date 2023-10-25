@@ -1,0 +1,23 @@
+body {font-family: Verdana, Arial, Helvetica, san-serif;
+    font-size: 100%; width: 80%; background-color: #ff0000; margin: auto; border: 1px solid black; }
+h2 { padding-bottom: 0; }
+
+header { border-bottom: 2px solid black; text-align: center; }
+
+  #nav_menu ul {
+    list-style-type: none; } /* Remove bullets from all ul elements */
+  #nav_menu ul li { padding: 1.5em; display:inline; } /* Display items horizontally */ 
+  #nav_menu { padding-bottom: 1em; }
+
+
+main { 
+    width: 44%; border-right: 2px solid black; padding: 0; float:left}
+main h2 p { height: 350px; padding: 0; } /* to give the aside some height for its border*/ 
+
+aside {
+   width: 34%; padding-bottom: .5em; float:left; padding-left: 50px; }
+aside h2 ol li { text-align: left; }
+
+footer { clear: both; float: left; padding-top: .5em; }
+ 
+
